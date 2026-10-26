@@ -1,0 +1,15 @@
+﻿# git 历史
+.git/
+
+# Python 字节码
+__pycache__/
+*.py[cod]
+
+# 运行产物
+output/
+
+# 测试数据（运行时用 -v 挂载）
+samples/
+
+# 文档
+*.md

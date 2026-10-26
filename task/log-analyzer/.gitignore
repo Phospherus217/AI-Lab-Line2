@@ -1,0 +1,20 @@
+# ===== Python 字节码 =====
+__pycache__/
+*.py[cod]
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== IDE 配置 =====
+.idea/
+*.iml
+
+# ===== 程序输出 =====
+output/
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
+desktop.ini
