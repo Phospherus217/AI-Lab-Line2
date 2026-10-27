@@ -1,0 +1,22 @@
+# Task03 Linux终端基础命令实战
+姓名：张之豪  学号：2026009048
+
+## 1. 命令汇总表
+| 命令 | 功能说明 |
+| ---- | ---- |
+| pwd | 打印当前工作目录 |
+| ls | 列出当前目录下文件 |
+| cd | 切换目录，cd .. 返回上级 |
+| mkdir | 创建新文件夹 |
+| touch | 创建空白文件 |
+| cat | 查看文本文件内容 |
+
+## 2. [实操演示}((./img/a8924f809be088e7f8bafdddc8ccffc7.png))
+```bash
+pwd
+ls
+mkdir test_demo
+cd test_demo
+touch hello.txt
+ls
+cd ..
