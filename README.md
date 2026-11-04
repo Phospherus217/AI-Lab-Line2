@@ -16,3 +16,18 @@ AI-Lab-Line2 关于专业软件GUIAgent的学习研究平台
 最后，感谢大家看完，也欢迎大家加入line2，人这一生会遇到很多颜色的人，黑色的，白色的，红色的，但总有一天你会遇到一些闪闪发光的人，希望我们都是彼此大学中最美的底色！
 
 ​																																																			————2026.9.13  高翊城亲笔
+
+## 通识任务进度
+
+| 任务 | 目录 | 状态 | 说明 |
+|---|---|---|---|
+| Task01 | `task1/` | 进行中 | 已补环境说明，待补真实 CLI/API 证据截图 |
+| Task02 | `notes/` | 待提交 | Markdown 笔记与踩坑记录 |
+| Task03 | `task3/` | 环境就绪 | WSL2 Ubuntu 24.04 |
+| Task04 | `.git/` | 已完成 | ≥5 次规范提交，含 feature→main 合并 |
+| Task05 | `task5/` | 环境就绪 | Conda `ailab` / Python3.10，待补记录截图 |
+| Task06 | `task6/` | 环境就绪 | WSL Docker 29.1.3，待补 Dockerfile 与日志 |
+| Task07 | `src/basics/` | 待提交 | Python 语法与数据结构练习 |
+| Task08 | `task8/` | 待提交 | 文件统计脚本与 `summary.json` |
+| Task09 | `src/luogu/` | 待提交 | 洛谷至少 6 题 Accepted |
+| Task10 | `project/` | 待提交 | CLI 工具、README、requirements.txt、Dockerfile |

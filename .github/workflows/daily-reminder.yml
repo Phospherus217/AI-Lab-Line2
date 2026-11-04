@@ -1,0 +1,52 @@
+name: Daily AI-Lab reminder
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+    - cron: "30 13 * * *"
+  workflow_dispatch:
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send daily task reminder
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+        run: |
+          python - <<'PY'
+          import json, os, urllib.request
+          from datetime import datetime, timedelta, timezone
+
+          now = datetime.now(timezone.utc) + timedelta(hours=8)
+          label = "09:00 开工提醒" if now.hour < 12 else "21:30 收口提醒"
+          plans = {
+              "2026-10-29": "Task1 重做（真实 CLI/IDE 证据）+ Task02 笔记 + 仓库骨架",
+              "2026-10-30": "Task03 Linux + Task04 Git 合并树 + Task05 Conda",
+              "2026-10-31": "Task06 Docker + Task07 Python 三组练习",
+              "2026-11-01": "Task08 文件统计脚本 + Task09 洛谷 6 题",
+              "2026-11-02": "Task10 CLI 工具核心功能开发",
+              "2026-11-03": "Task10 容器化 + 根 README 汇总 + 最终自查",
+          }
+          task = plans.get(now.strftime("%Y-%m-%d"), "按 6 天计划检查 10 项任务，更新 README 与语义化提交")
+          text = f"AI-Lab {label}（{now.strftime('%m/%d')}）：{task}"
+
+          def send(url, payload):
+              req = urllib.request.Request(url, data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+                                           headers={"Content-Type": "application/json"})
+              with urllib.request.urlopen(req, timeout=20) as resp:
+                  print(resp.status)
+
+          sent = False
+          feishu = os.environ.get("FEISHU_WEBHOOK_URL")
+          if feishu:
+              send(feishu, {"msg_type": "text", "content": {"text": text}})
+              sent = True
+          wecom = os.environ.get("WECOM_WEBHOOK_URL")
+          if wecom:
+              send(wecom, {"msgtype": "text", "text": {"content": text}})
+              sent = True
+          if not sent:
+              print("No webhook secret configured; skip.")
+          PY
