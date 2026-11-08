@@ -1,0 +1,22 @@
+# ---- 虚拟环境（4.9 GB，绝对不能进仓库）----
+.venv/
+venv/
+env/
+
+# ---- IDE ----
+.idea/
+.vscode/
+
+# ---- 训练产物（权重、图片、报告）----
+output/
+*.pth
+*.onnx
+
+# ---- 数据与缓存（体积大，不入库）----
+data/raw/
+data/*.pt
+data/FashionMNIST/
+
+# ---- Python 缓存 ----
+__pycache__/
+*.pyc
