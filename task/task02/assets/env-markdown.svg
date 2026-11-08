@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 480" width="780" height="480" font-family="'Segoe UI', 'Microsoft YaHei', sans-serif">
+  <rect x="0" y="0" width="780" height="480" rx="10" fill="#1e1e1e"/>
+  <path d="M0 10a10 10 0 0 1 10-10h760a10 10 0 0 1 10 10v24H0z" fill="#323233"/>
+  <circle cx="22" cy="17" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="17" r="6" fill="#27c93f"/>
+  <text x="390" y="22" fill="#cccccc" font-size="12" text-anchor="middle">扩展 — Markdown · Visual Studio Code</text>
+
+  <rect x="0" y="34" width="780" height="44" fill="#252526"/>
+  <text x="22" y="62" fill="#e6e6e6" font-size="14" font-weight="600">已启用 Markdown 相关扩展 6 个</text>
+  <text x="758" y="62" fill="#8a8a8a" font-size="12" text-anchor="end">VS Code 1.141.1</text>
+
+  <!-- Row 1 -->
+  <rect x="22" y="94" width="34" height="34" rx="6" fill="#3a7bd5"/>
+  <text x="39" y="117" fill="#ffffff" font-size="16" font-weight="700" text-anchor="middle">M</text>
+  <text x="68" y="110" fill="#e6e6e6" font-size="14">Markdown All in One</text>
+  <text x="68" y="128" fill="#8a8a8a" font-size="11">yzhang.markdown-all-in-one · 目录生成 / 快捷键 / 语法提示</text>
+  <text x="758" y="116" fill="#89d185" font-size="11" text-anchor="end">已启用</text>
+
+  <!-- Row 2 -->
+  <rect x="22" y="152" width="34" height="34" rx="6" fill="#7a4fd6"/>
+  <text x="39" y="175" fill="#ffffff" font-size="16" font-weight="700" text-anchor="middle">P</text>
+  <text x="68" y="168" fill="#e6e6e6" font-size="14">Markdown Preview Enhanced</text>
+  <text x="68" y="186" fill="#8a8a8a" font-size="11">shd101wyy.markdown-preview-enhanced · LaTeX 公式 / 图表渲染</text>
+  <text x="758" y="174" fill="#89d185" font-size="11" text-anchor="end">已启用</text>
+
+  <!-- Row 3 -->
+  <rect x="22" y="210" width="34" height="34" rx="6" fill="#2f9e6e"/>
+  <text x="39" y="233" fill="#ffffff" font-size="16" font-weight="700" text-anchor="middle">i</text>
+  <text x="68" y="226" fill="#e6e6e6" font-size="14">markdown-image</text>
+  <text x="68" y="244" fill="#8a8a8a" font-size="11">hancel.markdown-image · 粘贴图片自动保存到 assets/</text>
+  <text x="758" y="232" fill="#89d185" font-size="11" text-anchor="end">已启用</text>
+
+  <!-- Row 4 -->
+  <rect x="22" y="268" width="34" height="34" rx="6" fill="#c9821b"/>
+  <text x="39" y="291" fill="#ffffff" font-size="16" font-weight="700" text-anchor="middle">P</text>
+  <text x="68" y="284" fill="#e6e6e6" font-size="14">Paste Image</text>
+  <text x="68" y="302" fill="#8a8a8a" font-size="11">mushan.vscode-paste-image · 截图直接落盘为本地图片</text>
+  <text x="758" y="290" fill="#89d185" font-size="11" text-anchor="end">已启用</text>
+
+  <!-- Row 5 -->
+  <rect x="22" y="326" width="34" height="34" rx="6" fill="#b0443a"/>
+  <text x="39" y="349" fill="#ffffff" font-size="15" font-weight="700" text-anchor="middle">中</text>
+  <text x="68" y="342" fill="#e6e6e6" font-size="14">Chinese (Simplified) Language Pack</text>
+  <text x="68" y="360" fill="#8a8a8a" font-size="11">ms-ceintl.vscode-language-pack-zh-hans · 中文界面</text>
+  <text x="758" y="348" fill="#89d185" font-size="11" text-anchor="end">已启用</text>
+
+  <!-- Row 6 -->
+  <rect x="22" y="384" width="34" height="34" rx="6" fill="#2f6f8f"/>
+  <text x="39" y="407" fill="#ffffff" font-size="16" font-weight="700" text-anchor="middle">G</text>
+  <text x="68" y="400" fill="#e6e6e6" font-size="14">GitLens</text>
+  <text x="68" y="418" fill="#8a8a8a" font-size="11">eamodio.gitlens · 每次提交留痕，配合 Git 归档</text>
+  <text x="758" y="406" fill="#89d185" font-size="11" text-anchor="end">已启用</text>
+
+  <rect x="0" y="440" width="780" height="40" fill="#252526"/>
+  <text x="22" y="465" fill="#9d9d9d" font-size="11.5">预览 Ctrl+Shift+V　｜　侧边预览 Ctrl+K V　｜　Markdown 语言支持由编辑器内置提供</text>
+</svg>

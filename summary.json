@@ -1,0 +1,21 @@
+{
+  "files": [
+    {
+      "file": "note_git.md",
+      "lines": 15,
+      "chars": 233
+    },
+    {
+      "file": "note_python.md",
+      "lines": 22,
+      "chars": 288
+    },
+    {
+      "file": "note_nested.md",
+      "lines": 9,
+      "chars": 202
+    }
+  ],
+  "total_lines": 46,
+  "total_chars": 723
+}

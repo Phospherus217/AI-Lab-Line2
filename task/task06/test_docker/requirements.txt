@@ -1,0 +1,3 @@
+# 本项目无第三方依赖；如需扩展，按以下格式声明。
+# 生成：pip freeze > requirements.txt
+# 安装：pip install -r requirements.txt
