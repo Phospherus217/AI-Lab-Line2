@@ -1,0 +1,8 @@
+apple = list(map(int, input().split()))
+hand = int(input())
+max_reach = hand + 30
+count = 0
+for x in apple:    
+if x <= max_reach:        
+count += 1
+print(count)
