@@ -1,0 +1,11 @@
+﻿val_position,dataset_index,true_id,true_class,pred_id,pred_class,pred_confidence
+7,11380,9,Ankle boot,7,Sneaker,0.8649
+10,9909,3,Dress,4,Coat,0.6208
+20,23604,4,Coat,2,Pullover,0.6025
+22,32882,0,T-shirt/top,4,Coat,0.4898
+23,41324,6,Shirt,0,T-shirt/top,0.596
+24,58230,6,Shirt,4,Coat,0.7359
+33,3202,6,Shirt,0,T-shirt/top,0.3828
+41,20411,4,Coat,2,Pullover,0.6987
+44,41884,6,Shirt,3,Dress,0.9174
+64,7689,3,Dress,0,T-shirt/top,0.6246

@@ -1,0 +1,12 @@
+{
+  "run_name": "cnn_structure_variant",
+  "seed": 42,
+  "epochs": 5,
+  "learning_rate": 0.001,
+  "final_train_loss": 0.26864620213508605,
+  "final_train_accuracy_pct": 90.24,
+  "final_val_loss": 0.2955851606965065,
+  "final_val_accuracy_pct": 89.16,
+  "best_val_accuracy_pct": 89.16,
+  "device": "cpu"
+}

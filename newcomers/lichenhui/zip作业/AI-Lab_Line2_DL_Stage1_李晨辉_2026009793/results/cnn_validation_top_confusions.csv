@@ -1,0 +1,13 @@
+﻿true,pred,count,rate_pct
+Shirt,T-shirt/top,98,20.0
+Shirt,Pullover,38,7.76
+Shirt,Coat,36,7.35
+Pullover,Coat,34,6.45
+Coat,Pullover,21,4.12
+Dress,Coat,19,3.99
+Coat,Dress,18,3.53
+Pullover,T-shirt/top,17,3.23
+Shirt,Dress,16,3.27
+T-shirt/top,Shirt,15,2.74
+Pullover,Shirt,13,2.47
+Ankle boot,Sneaker,13,2.64

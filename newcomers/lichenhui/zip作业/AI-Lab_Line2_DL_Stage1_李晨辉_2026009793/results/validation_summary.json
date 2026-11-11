@@ -1,0 +1,37 @@
+{
+  "mlp_baseline": {
+    "val_accuracy_pct": 86.26,
+    "n": 5000,
+    "n_wrong": 687
+  },
+  "mlp_lr_variant_0p0003": {
+    "val_accuracy_pct": 86.82,
+    "n": 5000,
+    "n_wrong": 659
+  },
+  "cnn_baseline": {
+    "val_accuracy_pct": 90.88,
+    "n": 5000,
+    "n_wrong": 456
+  },
+  "cnn_structure_variant": {
+    "val_accuracy_pct": 89.16,
+    "n": 5000,
+    "n_wrong": 542
+  },
+  "cnn_learning_rate_study_0p0001": {
+    "val_accuracy_pct": 84.46,
+    "n": 5000,
+    "n_wrong": 777
+  },
+  "cnn_learning_rate_study_0p001": {
+    "val_accuracy_pct": 89.04,
+    "n": 5000,
+    "n_wrong": 548
+  },
+  "cnn_learning_rate_study_0p01": {
+    "val_accuracy_pct": 89.06,
+    "n": 5000,
+    "n_wrong": 547
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "run_name": "mlp_baseline",
+  "seed": 42,
+  "epochs": 5,
+  "learning_rate": 0.001,
+  "final_train_loss": 0.3058198554212397,
+  "final_train_accuracy_pct": 88.75818181818182,
+  "final_val_loss": 0.3679688751220703,
+  "final_val_accuracy_pct": 86.26,
+  "best_val_accuracy_pct": 87.12,
+  "device": "cpu"
+}

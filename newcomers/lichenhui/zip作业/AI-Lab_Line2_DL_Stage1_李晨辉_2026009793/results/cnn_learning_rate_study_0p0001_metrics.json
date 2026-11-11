@@ -1,0 +1,12 @@
+{
+  "run_name": "cnn_learning_rate_study_0p0001",
+  "seed": 42,
+  "epochs": 3,
+  "learning_rate": 0.0001,
+  "final_train_loss": 0.45462114901109174,
+  "final_train_accuracy_pct": 83.86181818181818,
+  "final_val_loss": 0.4458337955236435,
+  "final_val_accuracy_pct": 84.46,
+  "best_val_accuracy_pct": 84.46,
+  "device": "cpu"
+}

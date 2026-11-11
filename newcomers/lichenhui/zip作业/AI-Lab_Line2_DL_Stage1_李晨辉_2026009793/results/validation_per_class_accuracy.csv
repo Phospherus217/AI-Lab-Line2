@@ -1,0 +1,71 @@
+﻿model,class_id,class,n,accuracy_pct
+mlp_baseline,0,T-shirt/top,548,73.54
+mlp_baseline,1,Trouser,510,98.63
+mlp_baseline,2,Pullover,527,70.02
+mlp_baseline,3,Dress,476,91.18
+mlp_baseline,4,Coat,510,89.22
+mlp_baseline,5,Sandal,509,90.96
+mlp_baseline,6,Shirt,490,65.31
+mlp_baseline,7,Sneaker,445,95.96
+mlp_baseline,8,Bag,492,96.14
+mlp_baseline,9,Ankle boot,493,94.52
+mlp_lr_variant_0p0003,0,T-shirt/top,548,84.49
+mlp_lr_variant_0p0003,1,Trouser,510,98.43
+mlp_lr_variant_0p0003,2,Pullover,527,85.01
+mlp_lr_variant_0p0003,3,Dress,476,90.34
+mlp_lr_variant_0p0003,4,Coat,510,76.27
+mlp_lr_variant_0p0003,5,Sandal,509,93.12
+mlp_lr_variant_0p0003,6,Shirt,490,56.53
+mlp_lr_variant_0p0003,7,Sneaker,445,91.24
+mlp_lr_variant_0p0003,8,Bag,492,96.54
+mlp_lr_variant_0p0003,9,Ankle boot,493,96.75
+cnn_baseline,0,T-shirt/top,548,92.52
+cnn_baseline,1,Trouser,510,99.02
+cnn_baseline,2,Pullover,527,86.53
+cnn_baseline,3,Dress,476,91.81
+cnn_baseline,4,Coat,510,90.2
+cnn_baseline,5,Sandal,509,98.23
+cnn_baseline,6,Shirt,490,60.61
+cnn_baseline,7,Sneaker,445,95.73
+cnn_baseline,8,Bag,492,97.36
+cnn_baseline,9,Ankle boot,493,96.75
+cnn_structure_variant,0,T-shirt/top,548,88.32
+cnn_structure_variant,1,Trouser,510,98.82
+cnn_structure_variant,2,Pullover,527,91.08
+cnn_structure_variant,3,Dress,476,89.71
+cnn_structure_variant,4,Coat,510,75.69
+cnn_structure_variant,5,Sandal,509,96.46
+cnn_structure_variant,6,Shirt,490,65.1
+cnn_structure_variant,7,Sneaker,445,94.83
+cnn_structure_variant,8,Bag,492,96.34
+cnn_structure_variant,9,Ankle boot,493,95.54
+cnn_learning_rate_study_0p0001,0,T-shirt/top,548,87.59
+cnn_learning_rate_study_0p0001,1,Trouser,510,98.63
+cnn_learning_rate_study_0p0001,2,Pullover,527,75.14
+cnn_learning_rate_study_0p0001,3,Dress,476,86.76
+cnn_learning_rate_study_0p0001,4,Coat,510,77.84
+cnn_learning_rate_study_0p0001,5,Sandal,509,93.71
+cnn_learning_rate_study_0p0001,6,Shirt,490,47.76
+cnn_learning_rate_study_0p0001,7,Sneaker,445,86.97
+cnn_learning_rate_study_0p0001,8,Bag,492,94.51
+cnn_learning_rate_study_0p0001,9,Ankle boot,493,95.54
+cnn_learning_rate_study_0p001,0,T-shirt/top,548,92.88
+cnn_learning_rate_study_0p001,1,Trouser,510,98.43
+cnn_learning_rate_study_0p001,2,Pullover,527,86.34
+cnn_learning_rate_study_0p001,3,Dress,476,87.61
+cnn_learning_rate_study_0p001,4,Coat,510,89.61
+cnn_learning_rate_study_0p001,5,Sandal,509,97.45
+cnn_learning_rate_study_0p001,6,Shirt,490,51.02
+cnn_learning_rate_study_0p001,7,Sneaker,445,94.83
+cnn_learning_rate_study_0p001,8,Bag,492,97.56
+cnn_learning_rate_study_0p001,9,Ankle boot,493,94.12
+cnn_learning_rate_study_0p01,0,T-shirt/top,548,93.61
+cnn_learning_rate_study_0p01,1,Trouser,510,98.43
+cnn_learning_rate_study_0p01,2,Pullover,527,86.15
+cnn_learning_rate_study_0p01,3,Dress,476,90.34
+cnn_learning_rate_study_0p01,4,Coat,510,85.88
+cnn_learning_rate_study_0p01,5,Sandal,509,98.62
+cnn_learning_rate_study_0p01,6,Shirt,490,50.61
+cnn_learning_rate_study_0p01,7,Sneaker,445,96.85
+cnn_learning_rate_study_0p01,8,Bag,492,96.75
+cnn_learning_rate_study_0p01,9,Ankle boot,493,93.1

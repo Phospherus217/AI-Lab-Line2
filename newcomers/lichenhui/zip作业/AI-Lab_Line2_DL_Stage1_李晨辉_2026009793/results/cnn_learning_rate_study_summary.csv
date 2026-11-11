@@ -1,0 +1,4 @@
+experiment_name,independent_variable,condition,epochs,seed,final_train_loss,final_train_accuracy_pct,final_val_loss,final_val_accuracy_pct,best_val_accuracy_pct
+cnn_learning_rate_study,learning_rate,0.0001,3,42,0.45462114901109174,83.86181818181818,0.4458337955236435,84.46,84.46
+cnn_learning_rate_study,learning_rate,0.001,3,42,0.2808858808864247,89.74363636363637,0.30318696323633193,89.04,89.04
+cnn_learning_rate_study,learning_rate,0.01,3,42,0.26680026170990684,90.0709090909091,0.32008122181892396,89.06,89.06

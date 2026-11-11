@@ -1,0 +1,3 @@
+model,test_loss,test_accuracy_pct
+MLP,0.372385630607605,86.27
+CNN,0.2617486871957779,90.75

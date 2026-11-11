@@ -1,0 +1,12 @@
+{
+  "run_name": "mlp_lr_variant_0p0003",
+  "seed": 42,
+  "epochs": 5,
+  "learning_rate": 0.0003,
+  "final_train_loss": 0.3589349336017262,
+  "final_train_accuracy_pct": 87.19090909090909,
+  "final_val_loss": 0.3808580984830856,
+  "final_val_accuracy_pct": 86.82,
+  "best_val_accuracy_pct": 86.82,
+  "device": "cpu"
+}

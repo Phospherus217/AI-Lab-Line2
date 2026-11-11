@@ -1,0 +1,12 @@
+{
+  "run_name": "cnn_baseline",
+  "seed": 42,
+  "epochs": 5,
+  "learning_rate": 0.001,
+  "final_train_loss": 0.2287162500489842,
+  "final_train_accuracy_pct": 91.6509090909091,
+  "final_val_loss": 0.25394347165822984,
+  "final_val_accuracy_pct": 90.88,
+  "best_val_accuracy_pct": 90.88,
+  "device": "cpu"
+}

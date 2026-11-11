@@ -1,0 +1,10 @@
+﻿experiment_id,date,research_question,model,independent_variable,condition,seed,batch_size,epochs,optimizer,learning_rate,train_loss,val_loss,train_accuracy_pct,val_accuracy_pct,device,notes
+EXP-001,2026-11-11,T1 MLP 基线复现,MLP,-（基线）,lr=1e-3,42,128,5,Adam,0.001,0.30582,0.367969,88.76,86.26,CPU,mlp_baseline; best_val_acc=87.12%;
+EXP-002,2026-11-11,T1 独立修改：学习率,MLP,learning_rate,lr=3e-4,42,128,5,Adam,0.0003,0.358935,0.380858,87.19,86.82,CPU,mlp_lr_variant_0p0003; best_val_acc=86.82%; 仅改学习率，其余同基线
+EXP-003,2026-11-11,T2 CNN 基线复现,CNN,-（基线）,"32/64 通道,k=3",42,128,5,Adam,0.001,0.228716,0.253943,91.65,90.88,CPU,cnn_baseline; best_val_acc=90.88%;
+EXP-004,2026-11-11,T2 CNN 结构变体,CNN,卷积通道数,"16/32 通道,k=3",42,128,5,Adam,0.001,0.268646,0.295585,90.24,89.16,CPU,cnn_structure_variant; best_val_acc=89.16%; 参数量 421642->206922
+EXP-005,2026-11-11,T3 自主实验：学习率对 CNN 收敛的影响,CNN,learning_rate,lr=1e-4,42,128,3,Adam,0.0001,0.454621,0.445834,83.86,84.46,CPU,cnn_learning_rate_study_0p0001; best_val_acc=84.46%; 3 轮短预算
+EXP-006,2026-11-11,T3 自主实验：学习率对 CNN 收敛的影响,CNN,learning_rate,lr=1e-3,42,128,3,Adam,0.001,0.280886,0.303187,89.74,89.04,CPU,cnn_learning_rate_study_0p001; best_val_acc=89.04%; 3 轮短预算
+EXP-007,2026-11-11,T3 自主实验：学习率对 CNN 收敛的影响,CNN,learning_rate,lr=1e-2,42,128,3,Adam,0.01,0.2668,0.320081,90.07,89.06,CPU,cnn_learning_rate_study_0p01; best_val_acc=89.06%; 3 轮短预算
+EXP-008,2026-11-11,T4 最终测试集评估（冻结设置后一次）,MLP,-（固定设置）,baseline,42,128,5,Adam,0.001,0.30582,0.367969,88.76,86.26,CPU,"mlp_baseline; 测试集 test_loss=0.3724, test_accuracy=86.27%; 测试集仅此次使用"
+EXP-009,2026-11-11,T4 最终测试集评估（冻结设置后一次）,CNN,-（固定设置）,baseline,42,128,5,Adam,0.001,0.228716,0.253943,91.65,90.88,CPU,"cnn_baseline; 测试集 test_loss=0.2617, test_accuracy=90.75%; 测试集仅此次使用"
