@@ -21,10 +21,10 @@
 
 
 ## 二、OpenCode CLI 环境配置与上手说明
-### 3.1 前置环境
+### 2.1 前置环境
 本地安装 Node.js，确保 `node -v`、`npm -v` 可正常输出版本。
 
-### 3.2 安装 OpenCode
+### 2.2 安装 OpenCode
 终端输入全局安装命令：
 npm install -g @opencode-ai/opencode
 <img width="1357" height="856" alt="屏幕截图 2026-11-11 131744" src="https://github.com/user-attachments/assets/f3becb35-1be7-4730-9406-866b70385fbf" />
