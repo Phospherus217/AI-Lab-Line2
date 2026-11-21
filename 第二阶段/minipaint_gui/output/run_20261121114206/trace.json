@@ -1,0 +1,47 @@
+{
+ "success": true,
+ "cost_ms": 1046565,
+ "steps": [
+  {
+   "step": "new_canvas",
+   "ok": true,
+   "ms": 4936,
+   "size": [
+    1200,
+    680
+   ]
+  },
+  {
+   "step": "draw_sketch",
+   "ok": true,
+   "ms": 1044776,
+   "lines": 293,
+   "points": 11514
+  },
+  {
+   "step": "export",
+   "ok": true,
+   "ms": 1046512,
+   "path": "C:\\Users\\20847\\Desktop\\minipaint_gui\\output\\run_20261121114206\\result.png"
+  },
+  {
+   "step": "verify_size",
+   "ok": true,
+   "ms": 1046565,
+   "expect": [
+    1200,
+    680
+   ],
+   "actual": [
+    1200,
+    680
+   ]
+  },
+  {
+   "step": "verify_not_blank",
+   "ok": true,
+   "ms": 1046565,
+   "non_white_ratio": 0.2189
+  }
+ ]
+}
