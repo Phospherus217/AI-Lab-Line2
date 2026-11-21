@@ -1,8 +1,9 @@
 # 被自动化的软件本体：自行下载 miniPaint 源码解压到 env\miniPaint-master
 env/
 
-# 每次运行的产物（截图、导出图、轨迹日志）
-output/
+# 每次运行的产物（截图、导出图、轨迹日志）：默认忽略，只保留作为交付证据的那一次
+output/*
+!output/run_20261121114206/
 
 # Python 缓存
 __pycache__/
